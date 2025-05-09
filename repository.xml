@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon 
+        id="repository.freeshot" 
+        version="1.0.0" 
+        name="FreeShot Repository" 
+        provider="YourName">
+        <extension point="xbmc.addon.repository">
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/YourUsername/Repository-Name/main/repo/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/YourUsername/Repository-Name/main/repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/YourUsername/Repository-Name/main/repo/</datadir>
+            </dir>
+        </extension>
+    </addon>
+</addons>
